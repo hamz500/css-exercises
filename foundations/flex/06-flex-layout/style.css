@@ -11,26 +11,22 @@ body {
 
 .header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding: 5px;
 }
 
 .left-links {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
+  justify-content: space-between;
   gap: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 
 .right-links {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 15px;
 }
 li, 
 a {
@@ -54,6 +50,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 15px;
 }
 
 img {
@@ -74,6 +71,5 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin-bottom: 10px;
 }
 
